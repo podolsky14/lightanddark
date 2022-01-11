@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import "./Styles.css"
+import "../App.css"
 
 const ThemeContext = createContext()
 

@@ -2,15 +2,13 @@ import { ThemeProvider } from "./pages/ThemeContext";
 import Footer from "./pages/Footer";
 import Header from "./pages/Header";
 import Main from "./pages/Main";
-import "./pages/Styles.css"
-
-
-
+import "./App.css"
 
 
 function App() {
 
   return (
+
 <div className="principal">
 <ThemeProvider>
 <Header/><br/>
@@ -18,6 +16,7 @@ function App() {
 <Footer/>
 </ThemeProvider>
 </div>
+
   )
 }
 

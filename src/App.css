@@ -1,16 +1,18 @@
-.blanco {
-  margin: 2rem auto;
-  padding: 1rem;
-  width: 70%;
-  background-color: rgba(255, 255, 255, 0.911);
-  border: red solid 3px;
-}
-
-.negro {
-  background-color: black;
+.blanco{
+  color: black;
+  background-color:white;
+  border: red solid 3px
+  }
+  
+  .negro{
   color: white;
-  margin: 2rem auto;
-  padding: 1rem;
-  width: 70%;
-  border: red solid 3px;
-}
+  background-color: black;
+  border: red solid 3px
+  }
+  
+  .principal{
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  
+  }
